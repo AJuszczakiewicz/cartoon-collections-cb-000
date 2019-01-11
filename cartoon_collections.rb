@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(ingredients_array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients_array()
+  (ingredients_array & cheese_types).first
 end
