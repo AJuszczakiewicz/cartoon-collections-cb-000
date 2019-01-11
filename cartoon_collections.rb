@@ -10,7 +10,7 @@ def long_planeteer_calls(calls_array)# code an argument here
   calls_array.any?{|call| call.length < 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(ingredients_array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
+  ingredients_array()
 end
